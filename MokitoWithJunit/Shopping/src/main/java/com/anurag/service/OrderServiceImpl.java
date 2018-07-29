@@ -42,10 +42,6 @@ public class OrderServiceImpl implements OrderService {
         return result>0?true:false;
     }
 
-    public OrderDAO getDao() {
-        return dao;
-    }
-
     public void setDao(OrderDAO dao) {
         this.dao = dao;
     }
